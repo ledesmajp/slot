@@ -9,19 +9,19 @@ def play(coins):
       symbols = random.choices(symbols, k=3)
       print(f'{symbols[0]} | {symbols[1]} | {symbols[2]} ')
       if symbols[0] == '🍒' and symbols[0] == symbols[1] == symbols[2]:
-        print('You Win: $5')
+        print('You Win: $5 🎰🎰🎰🎰')
         coins += 5
       elif symbols[0] == '🍇' and symbols[0] == symbols[1] == symbols[2]:
-          print('You win: $10')
+          print('You win: $10 🎰🎰🎰🎰')
           coins += 10
       elif symbols[0] == '🍉' and symbols[0] == symbols[1] == symbols[2]:
-          print('You win: $15')
+          print('You win: $15 🎰🎰🎰🎰')
           coins += 15
       elif symbols [0] == '💯' and symbols[0] == symbols[1] == symbols[2]:
-          print('JACK POT!!: $100')
+          print('JACK POT!!: $100 🎰🎰🎰🎰')
           coins += 100
       else:
-          print('No win this time')
+          print('No win this time 🚫')
 
       coins -= 1
       print(f'You have ${coins}')
